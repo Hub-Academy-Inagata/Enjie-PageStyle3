@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital@1&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: none; 
+}
+
+.navbar-nav a {
+    color: #30396E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav a:hover {
+    font-family: 'Poppins', sans-serif;
+    color: #30396E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn {
+    width: Hug (89px);
+    height: Hug (32px);
+    top: 20px;
+    left: 1271px;
+    padding: 4px, 24px, 4px, 24px;
+    border-radius: 8px;
+    background-color: #619AEF;
+    gap: 10px;
+}
+
+.btn:hover {
+    background-color: #30396E;
+    color: white;
+}
+
+.tuntut {
+    margin: 0px 0px 200px;
+    background-image: url(../image/Vector2.png), url(../image/bulat.png);
+    background-repeat: no-repeat;
+    background-position: top right, left top;
+    background-size: 50%, 9%;
+    height: 100%;
+}
+
+.tuntut .tuntut-img {
+    margin-left: 167px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.video .video-text {
+    text-align: center;
+}
+
+.video .text-center h1 {
+    color: #1C2661;
+    font-weight: bolder;
+}
+
+.video .text-center p {
+    color: #3A3B41;
+}
+
+.video .link img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.video .link img {
+    width: 50%;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.btn-close {
+    position:absolute;
+    right:-30px;
+    top:0;
+}
+
+.keunggulan-tentang {
+    background-image: url(../image/Rectangle.png);
+    background-repeat: no-repeat;
+    height: 1145px;
+    background-size: cover;
+    margin: 200px 0px 200px;
+}
+
+.keunggulan-tentang .keunggulan-text {
+    margin-top: 158px;
+    position: absolute;
+    align-items: center;
+    margin-left: 350px;
+    color: #FFFFFF;
+}
+
+.keunggulan-tentang .keunggulan-sekolah .card {
+    margin-top: 250px;
+    border-radius: 8px;
+}
+
+.keunggulan-tentang .keunggulan-sekolah img {
+    margin-left: 121px;
+    width: 20%;
+}
+
+.keunggulan-tentang .keunggulan-sekolah h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1C2661;
+}
+
+.keunggulan-tentang .keunggulan-sekolah p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #3A3B41;
+}
+
+.keunggulan-tentang .row {
+    margin: 0px 0px 90px;
+}
+
+.tentang .tentang-kami h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.tentang .tentang-kami p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 36px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.guru {
+    margin: 0px 0px 200px;
+    background-image: url(../image/Vector3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50%;
+    height: 100%;
+}
+
+.guru .text-1 {
+    margin: 0px 0px 20px;
+}
+
+.guru .row h1 {
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 84px;
+}
+
+.guru .row h2 {
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.guru .row .col-auto .btn {
+    margin-left: 82%;
+    margin-top: -5%;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.guru .row .col-auto .fa-solid {
+    margin-left: 11px;
+}
+
+.guru .row .image-guru img {
+    width: 100%;
+}
+
+.guru .image-guru img:hover {
+    transform: scale(1.1);
+}
+
+.guru .card {
+    background: none;
+    border-color: #619AEF;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+.guru .card h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.guru .card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.daftar .card {
+    background: linear-gradient(to bottom, #3871D0, #58C6EF);;
+    border-radius: 24px;
+    padding: 44px;
+    border: none;
+}
+
+.daftar .daftar-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.daftar .daftar-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.daftar .daftar-text .btn-daftar {
+    background-color: #F4F7FE;
+    color: #619AEF;
+}
+
+.daftar .daftar-text .btn-daftar:hover {
+    background-color: #1C2661;
+    color: #FFFFFF;
+}
+
+.daftar .image-rafiki img {
+    margin-left: 37px;
+}

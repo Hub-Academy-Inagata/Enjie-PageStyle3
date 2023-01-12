@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital@1&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: none; 
+}
+
+.navbar-nav a {
+    color: #30396E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav a:hover {
+    font-family: 'Poppins', sans-serif;
+    color: #30396E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn {
+    width: Hug (89px);
+    height: Hug (32px);
+    top: 20px;
+    left: 1271px;
+    padding: 4px, 24px, 4px, 24px;
+    border-radius: 8px;
+    background-color: #619AEF;
+    gap: 10px;
+}
+
+.btn:hover {
+    background-color: #30396E;
+    color: white;
+}
+
+.tuntut {
+    margin: 0px 0px 200px;
+    background-image: url(../image/Vector2.png), url(../image/bulat.png);
+    background-repeat: no-repeat;
+    background-position: top right, left top;
+    background-size: 50%, 9%;
+    height: 100%;
+}
+
+.tuntut .tuntut-img {
+    margin-left: 167px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.gotong {
+    margin: 0px 0px 200px;
+}
+
+.gotong .card {
+    background: none;
+    border-color: #619AEF;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+.gotong .gotong-image img {
+    width: 100%;
+}
+
+.gotong .gotong-text h5 {
+    color: #619AEF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.gotong .gotong-text h1 {
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.gotong .gotong-text p {
+    color: #3A3B41;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.gotong .gotong-text a {
+    text-decoration: none;
+    color: #3362CC;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.gotong .gotong-text a:hover {
+    color: #619AEF;
+}
+
+.galeri .row {
+    display: flex;
+    flex-direction: inherit;
+}
+
+.galeri .col-4 img {
+    width: 100%;
+}
+
+.galeri .card {
+    border-radius: 20px;
+    margin-top: 20px;
+    background: none;
+    border-color: #619AEF;
+    border-width: 3px;
+}
+
+.galeri .col-4 h6 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #619AEF;
+}
+
+.galeri .col-4 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1C2661;
+}
+
+.galeri .col-4 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #3A3B41;
+}
+
+.galeri .col-4 a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #619AEF;
+    text-decoration: none;
+}

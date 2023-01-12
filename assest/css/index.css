@@ -114,6 +114,7 @@
     position: absolute;
     align-items: center;
     margin-left: 350px;
+    color: #FFFFFF;
 }
 
 .keunggulan-tentang .keunggulan-sekolah .card {
@@ -285,6 +286,10 @@
     width: 100%;
 }
 
+.galeri .image-galeri img:hover {
+    transform: scale(1.1);
+}
+
 .daftar {
     margin: 0px 0px 200px;
 }
@@ -325,3 +330,78 @@
 .daftar .image-rafiki img {
     margin-left: 37px;
 }
+
+/* media queries
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .tuntut {
+        background-repeat: no-repeat;
+        background-position: top center, left bottom;
+        height: 400px;
+        margin: 0px 0px 500px;
+    }
+
+    .tuntut .row {
+        margin-top: -122px;
+    }
+
+    .tuntut .row div {
+        width: 610px;
+        height: 607px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tuntut .tuntut-img .rafiki {
+        margin-left: 21px;
+        width: 100%;
+    }
+
+    .keunggulan-tentang .row div {
+        padding: 10px;
+        width: 500px;
+        height: 339px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .galeri {
+        margin-top: 2277px;
+    }
+
+    .galeri .card-body {
+        margin-top: -2px;
+        margin-bottom: 26px;
+    }
+    
+    .galeri .row .col-auto .btn {
+        margin-top: -113px;
+    }
+
+    .galeri .row .col-3 {
+        width: 492px;
+        height: 533px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 1590px) {
+    .ilmu{
+        background-image: url();
+    }
+
+    .ilmu .col img{
+        display: block;
+    }
+} */
