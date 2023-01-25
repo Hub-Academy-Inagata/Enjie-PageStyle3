@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital@1&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: none; 
+}
+
+.navbar-nav a {
+    color: #30396E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav a:hover {
+    font-family: 'Poppins', sans-serif;
+    color: #30396E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn {
+    width: Hug (89px);
+    height: Hug (32px);
+    top: 20px;
+    left: 1271px;
+    padding: 4px, 24px, 4px, 24px;
+    border-radius: 8px;
+    background-color: #619AEF;
+    gap: 10px;
+}
+
+.btn:hover {
+    background-color: #30396E;
+    color: white;
+}
+
+.ilmu {
+    height: 535px;
+}
+
+.ilmu .img-fluid {
+    width: 90%;
+    margin-top: 166px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.artikel {
+    margin-top: -40px;
+}
+
+.artikel .badge {
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #619AEF;
+}
+
+.artikel .card {
+    margin-top: 241px;
+    border: none;
+    background: none;
+}
+
+.artikel .card h1 {
+    color: #1C2661;
+    font-family: "SF Pro Rounded";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66.83px;
+    letter-spacing: 3%;
+}
+
+.artikel .card h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 27px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .card p {
+    text-align: justify;
+    color: #3A3B41;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .artikel .card {
+        margin-top: 0px;
+    }
+
+    .artikel .card h1 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .artikel {
+        margin-top: -26px;
+    }
+
+    .artikel .card p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .artikel .badge {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 1590px) {
+    .ilmu{
+        display: block;
+    }
+}
+

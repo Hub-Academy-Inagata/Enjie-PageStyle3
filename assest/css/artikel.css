@@ -50,112 +50,152 @@
     height: 100%;
 }
 
-.tuntut .tuntut-img {
+.tuntut .img-fluid {
     margin-left: 167px;
     margin-top: 5px;
     width: 100%;
 }
 
 .gotong {
-    margin: 0px 0px 200px;
+    margin: 150px 0px 100px;
 }
 
 .gotong .card {
-    background: none;
-    border-color: #619AEF;
+    border-color: #3A75D1;
     border-width: 3px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
-.gotong .gotong-image img {
+.gotong .card .card-body {
+    margin: 0px 60px 0px;
+}
+
+.gotong .card .row .col img {
     width: 100%;
 }
 
-.gotong .gotong-text h5 {
-    color: #619AEF;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.gotong .gotong-text h1 {
-    color: #1C2661;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 48px;
-}
-
-.gotong .gotong-text p {
-    color: #3A3B41;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    text-align: justify;
-}
-
-.gotong .gotong-text a {
-    text-decoration: none;
-    color: #3362CC;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.gotong .gotong-text a:hover {
-    color: #619AEF;
-}
-
-.galeri .row {
-    display: flex;
-    flex-direction: inherit;
-}
-
-.galeri .col-4 img {
-    width: 100%;
-}
-
-.galeri .card {
+.gotong .row .badge {
+    background: linear-gradient(to right, #3A75D1, #54BBEC, #54BBEC); 
     border-radius: 20px;
-    margin-top: 20px;
-    background: none;
-    border-color: #619AEF;
-    border-width: 3px;
+    font-size: 20px;
+    margin-bottom: 20px
 }
 
-.galeri .col-4 h6 {
-    margin-top: 20px;
+.gotong .row .col h1 {
+    color: #1C2661;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #619AEF;
+    font-size: 150%;
+    font-weight: bolder;
 }
 
-.galeri .col-4 h1 {
+.gotong .row .col p {
+    color: #3A3B41;
+    text-align: justify;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+}
+
+.gotong .row .col h5 {
+    color: #3A3B41;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gotong .row .col a {
+    text-decoration: none;
+    color: #F3A84E;
+}
+
+.gotong .row .col a:hover {
     color: #1C2661;
 }
 
-.galeri .col-4 p{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: justify;
-    color: #3A3B41;
+.galeri .row .card {
+    border-color: #3A75D1;
+    border-width: 3px;
+    border-radius: 40px;
+    margin-bottom: 32px;
 }
 
-.galeri .col-4 a {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: justify;
-    color: #619AEF;
+.galeri .card-box {
+    border-color: #3A75D1;
+    border-width: 5px;
+}
+
+.galeri .row .col-4 img{
+    width: 100%;
+    margin: 3px 0px 30px;
+}
+
+.galeri .row .col-4 a{
     text-decoration: none;
+    color: #F3A84E;
+}
+
+.galeri .card-box img:hover {
+    transform: scale(1.1);
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .tuntut .img-fluid {
+        width: 545px;
+    }
+
+    .gotong .card {
+        margin: -19px 0px 150px;
+        border-color: #3A75D1;
+        height: 761px;
+    }
+
+    .gotong .row div {
+        padding: 66px;
+        width: 520px;
+        height: 193px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .gotong .card .row .col img {
+        width: 100%;
+    }
+
+    .galeri .row .card {
+        margin: 0px 0px 201px;
+    }
+
+    .galeri .row div { 
+        /* padding: 81px; */
+        width: 530px;
+        height: 564px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .galeri .row .col-4 .card-box img {
+        width: 449px;
+    }
+
+    .galeri .card .row .col-4 {
+        margin: 0px 0px 100px;
+    }
+}
+
+@media only screen and (min-width: 1590px) {
+    .tuntut{
+        background-image: url();
+    }
+
+    .tuntut .img-fluid{
+        display: block;
+    }
 }

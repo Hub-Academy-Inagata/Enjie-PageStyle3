@@ -50,7 +50,7 @@
     height: 100%;
 }
 
-.tuntut .tuntut-img {
+.tuntut .img-fluid {
     margin-left: 167px;
     margin-top: 5px;
     width: 100%;
@@ -60,4 +60,40 @@
 .dokumen .row .col-4 .image {
     width: 100%;
     margin-bottom: 20px;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .tuntut .img-fluid img {
+        width: 424px;
+        margin-left: -89px;
+    }
+
+    .dokumen .row {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dokumen .row .col-4 .image {
+        width: 200%;
+        margin-left: -40%;
+    }
+}
+
+@media only screen and (min-width: 1590px) {
+    .tuntut{
+        background-image: url();
+    }
+
+    .tuntut .img-fluid{
+        display: block;
+    }
 }
